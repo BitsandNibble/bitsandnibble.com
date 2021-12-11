@@ -26,7 +26,7 @@
 
       <div>
         <button type="button"
-                class="rounded-lg bg-sky-600 hover:bg-sky-800 py-2 px-8 font-bold text-center focus:ring-2 focus:ring-gray-400 inline-flex items-center">
+                class="rounded-lg bg-sky-600 hover:bg-sky-800 py-2 px-8 font-semibold text-center focus:ring-2 focus:ring-gray-400 inline-flex items-center">
           Get Started
         </button>
       </div>
@@ -34,26 +34,17 @@
   </header>
 
   <!--  section 1-->
-    <section class="w-full bg-gray-900 h-screen flex flex-row overflow-hidden">
-      <div class="flex flex-row w-full">
-
-        <div class="bg-white w-2/5 h-2/5 m-5 mt-10 rounded-xl"></div>
-        <div class="bg-white w-1/5 h-2/5 m-5 mt-10 rounded-xl"></div>
-        <div class="bg-white w-2/5 h-2/5 m-5 mt-10 rounded-xl"></div>
-
+  <section class="bg-gray-900 py-8 overflow-hidden">
+    <div class="container mx-auto items-center">
+      <div class="flex flex-row w-full h-64">
+        <div class="bg-white w-2/5 rounded-xl"></div>
+        <div class="w-1/5 m-5 rounded-xl"></div>
+        <div class="bg-white w-2/5 rounded-xl"></div>
       </div>
-    </section>
 
-<!--  <div class="flex flex-wrap -mx-4 overflow-hidden">-->
-
-<!--    <div class="my-4 px-4 w-full overflow-hidden">-->
-<!--      &lt;!&ndash; Column Content &ndash;&gt;-->
-<!--      <div class="bg-gra w-2/5 h-2/5 m-5 mt-10 rounded-xl"></div>-->
-<!--    </div>-->
-
-<!--    <div class="my-4 px-4 w-full overflow-hidden">-->
-<!--      &lt;!&ndash; Column Content &ndash;&gt;-->
-<!--    </div>-->
-
-<!--  </div>-->
+      <div class="flex flex-row my-8">
+        <button class="px-8 font-semibold py-4 bg-sky-600 hover:bg-sky-800 focus:ring-2 focus:ring-white text-white rounded-lg ">Get Started</button>
+      </div>
+    </div>
+  </section>
 </template>
