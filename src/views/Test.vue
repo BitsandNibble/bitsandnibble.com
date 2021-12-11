@@ -42,8 +42,40 @@
         <div class="bg-white w-2/5 rounded-xl"></div>
       </div>
 
-      <div class="flex flex-row my-8">
-        <button class="px-8 font-semibold py-4 bg-sky-600 hover:bg-sky-800 focus:ring-2 focus:ring-white text-white rounded-lg ">Get Started</button>
+      <div class="flex justify-between">
+        <button
+          class="my-8 px-8 font-semibold py-4 bg-sky-600 hover:bg-sky-800 focus:ring-2 focus:ring-white text-white rounded-lg">
+          Get Started
+        </button>
+
+        <button
+          class="my-8 px-4 py-4 bg-sky-600 hover:bg-sky-800 rounded-full">
+          ⬇️
+        </button>
+
+        <div class="my-8 px-8"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-8 overflow-hidden">
+    <div class="flex flex-wrap overflow-hidden container mx-auto text-black">
+
+      <div class="my-5 w-1/3 overflow-hidden">
+        <img src="images/1.jpg" class="rounded-full" alt="">
+        <p class="font-semibold text-2xl mt-3 text-center uppercase">Something should be here</p>
+        <p class="font-medium text-xl mt-3 text-center">Something should be here</p>
+      </div>
+
+      <div class="my-5 p-24 w-1/3 overflow-hidden">
+        <!-- Column Content -->
+        <img src="images/2.jpg" class="rounded-full" alt="">
+      </div>
+
+      <div class="my-5 w-1/3 overflow-hidden">
+        <img src="images/3.jpg" class="rounded-full" alt="">
+        <p class="font-semibold text-2xl mt-3 text-center uppercase">Something should be here</p>
+        <p class="font-medium text-xl mt-3 text-center">Something should be here</p>
       </div>
     </div>
   </section>
