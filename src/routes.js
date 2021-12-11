@@ -1,10 +1,12 @@
 import Home from './views/Home.vue'
 import About from './views/About.vue'
+import Test from './views/Test.vue'
 import NotFound from './views/NotFound.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
   { path: '/', component: Home, meta: { title: 'Home' } },
+  { path: '/test', component: Test, meta: { title: 'Test' } },
   {
     path: '/about',
     meta: { title: 'About' },
